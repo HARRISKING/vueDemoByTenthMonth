@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vueDemo</title>
+</head>
+<body>
+    <div id="app">
+        <div>
+            {{message}}
+        </div>
+        <input v-model='message'>
+        <ol>
+            <li v-for='list in lists'>
+                {{list.content}}
+            </li>
+        </ol>
+        <div v-if='isShow'>你能看到我吗？</div>
+        <button v-on:click='clickMe'>点击我试试</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
