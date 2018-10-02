@@ -1,0 +1,23 @@
+{
+  "name": "vue-demo",
+  "version": "1.0.0",
+  "description": "this is my own demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HARRISKING/vueDemoByTenthMonth.git"
+  },
+  "author": "HARRISKING",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HARRISKING/vueDemoByTenthMonth/issues"
+  },
+  "homepage": "https://github.com/HARRISKING/vueDemoByTenthMonth#readme",
+  "devDependencies": {
+    "vue": "^2.5.17",
+    "webpack": "^4.20.2"
+  }
+}

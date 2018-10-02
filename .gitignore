@@ -1,0 +1,14 @@
+package-lock.json
+dist/
+node_modules/
+.idea/
+npm-debug/
+.vscode
+.tern-project
+package-lock.json
+.DS_Store
+dir_conflicts.prej
+yarn-error.log
+*.zip
+www/
+
