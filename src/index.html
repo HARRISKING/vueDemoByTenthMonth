@@ -12,7 +12,7 @@
         <div>
             {{message}}
         </div>
-        <input v-model='message'>
+        <input v-model.trim='message' value='34333'>
         <ol>
             <li v-for='list in lists'>
                 {{list.content}}
@@ -20,6 +20,9 @@
         </ol>
         <div v-if='isShow'>你能看到我吗？</div>
         <button v-on:click='clickMe'>点击我试试</button>
+        <template>
+            <p>dffd</p>
+        </template>
     </div>
     <script src="index.js"></script>
 </body>

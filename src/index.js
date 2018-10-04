@@ -7,8 +7,7 @@ var app = new Vue({
             {content:'123hh'},
             {content:'123fgd'},
             {content:'123ss'},
-            {content:'1fgfd'},
-
+            {content:'1fgfd'}
         ],
         isShow: true,
     },
@@ -22,4 +21,11 @@ var app = new Vue({
             console.log(this.isShow)
         }
     }
+})
+
+Vue.component('har',{
+    data: function(){
+        return a=0
+    },
+    template: '<span>dfddd</span>'
 })
